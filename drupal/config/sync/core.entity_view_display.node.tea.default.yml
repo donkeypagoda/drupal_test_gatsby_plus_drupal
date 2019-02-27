@@ -1,0 +1,39 @@
+uuid: aa7c2c5a-617b-4b51-9707-6937fd73c1c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tea.body
+    - field.field.node.tea.field_tea_image
+    - node.type.tea
+  module:
+    - image
+    - text
+    - user
+id: node.tea.default
+targetEntityType: node
+bundle: tea
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tea_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

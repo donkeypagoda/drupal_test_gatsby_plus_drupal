@@ -1,0 +1,22 @@
+uuid: 7588ece8-d423-4e70-b289-4507d37e51c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tea
+  module:
+    - text
+id: node.tea.body
+field_name: body
+entity_type: node
+bundle: tea
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,4 +1,0 @@
-name: gatsby-plus-drupal-test
-recipe: drupal8
-config:
-  webroot: drupal/web

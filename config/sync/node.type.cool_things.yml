@@ -1,0 +1,18 @@
+uuid: 62de833c-a3dc-4879-8594-112bed128fda
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Cool Things'
+type: cool_things
+description: 'stuff thats cool'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,30 @@
+uuid: 1a86e8b4-c278-4ad7-8009-f9b7db3dc029
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cool_things.body
+    - node.type.cool_things
+  module:
+    - text
+    - user
+id: node.cool_things.teaser
+targetEntityType: node
+bundle: cool_things
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

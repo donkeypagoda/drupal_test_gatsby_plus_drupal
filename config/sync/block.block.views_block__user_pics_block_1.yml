@@ -1,0 +1,24 @@
+uuid: a091634c-ffcb-4a58-8174-3cd04257e91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.user_pics
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__user_pics_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:user_pics-block_1'
+settings:
+  id: 'views_block:user_pics-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

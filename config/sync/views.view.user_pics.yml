@@ -217,9 +217,8 @@ display:
     display_options:
       display_extenders: {  }
       pager:
-        type: some
+        type: none
         options:
-          items_per_page: 5
           offset: 0
       defaults:
         pager: false

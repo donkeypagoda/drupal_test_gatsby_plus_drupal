@@ -1,0 +1,21 @@
+uuid: 59cd7c14-038c-4d60-a89f-0376925f3388
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hack_user
+    - node.type.hack_user_pics
+id: node.hack_user_pics.field_hack_user
+field_name: field_hack_user
+entity_type: node
+bundle: hack_user_pics
+label: 'hack user'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,37 @@
+uuid: ffb53878-c0fe-4034-a756-254f05b53c96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hack_user_pics.field_hack_user
+    - field.field.node.hack_user_pics.field_test
+    - node.type.hack_user_pics
+  module:
+    - user
+id: node.hack_user_pics.default
+targetEntityType: node
+bundle: hack_user_pics
+mode: default
+content:
+  field_hack_user:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_test:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
